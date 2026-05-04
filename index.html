@@ -23,7 +23,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
              radial-gradient(ellipse 50% 50% at 90% 100%,rgba(76,201,240,0.09) 0%,transparent 55%);
   pointer-events:none;}
 #app{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:14px 14px 90px;}
-
+ 
 /* HEADER */
 .hdr{background:linear-gradient(135deg,var(--p700) 0%,var(--p500) 55%,#5BC8FF 100%);
   border-radius:var(--rxl);padding:26px 22px 22px;margin-bottom:14px;position:relative;overflow:hidden;}
@@ -35,11 +35,11 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .hdr-pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;}
 .hdr-pill{background:rgba(255,255,255,0.17);color:#fff;font-size:11px;font-weight:700;
   padding:3px 9px;border-radius:20px;letter-spacing:0.2px;}
-
+ 
 /* CARDS */
 .card{background:var(--white);border-radius:var(--rlg);padding:18px;margin-bottom:12px;
   border:1.5px solid var(--p100);box-shadow:var(--shadow);}
-
+ 
 /* BUTTONS */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;
   padding:10px 18px;border-radius:var(--rsm);border:1.5px solid var(--p200);
@@ -58,7 +58,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .btn-ghost:hover{background:var(--p50);color:var(--p700);}
 .btn-sm{padding:7px 13px;font-size:12px;}
 .btn-full{width:100%;margin-top:8px;}
-
+ 
 /* FORM */
 .field{margin-bottom:13px;}
 .label{font-size:11px;font-weight:700;color:var(--p700);text-transform:uppercase;
@@ -68,19 +68,19 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
   transition:border-color 0.18s,box-shadow 0.18s;}
 .inp:focus{outline:none;border-color:var(--p500);box-shadow:0 0 0 3px rgba(106,69,240,0.11);}
 .inp::placeholder{color:#C0B4E8;}
-
+ 
 /* KPI */
 .kpi-row{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:14px;}
 .kpi{background:var(--p50);border-radius:var(--rsm);padding:13px 8px;text-align:center;border:1.5px solid var(--p100);}
 .kpi-val{font-size:21px;font-weight:800;color:var(--p700);line-height:1;}
 .kpi-lbl{font-size:11px;color:var(--muted);margin-top:3px;font-weight:600;}
-
+ 
 /* PROGRESS */
 .prog-wrap{background:var(--p100);border-radius:20px;height:9px;overflow:hidden;}
 .prog-bar{height:100%;border-radius:20px;background:linear-gradient(90deg,var(--p600),var(--sky));
   transition:width 0.6s cubic-bezier(.34,1.56,.64,1);}
 .prog-meta{display:flex;justify-content:space-between;margin-top:5px;font-size:12px;color:var(--muted);}
-
+ 
 /* STEP ITEMS */
 .step-item{display:flex;align-items:flex-start;gap:13px;padding:13px 0;
   border-bottom:1.5px dashed var(--p100);}
@@ -92,7 +92,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .sn-lock{background:var(--p50);color:var(--muted);border-color:var(--p200);}
 .step-title{font-size:14px;font-weight:700;margin-bottom:2px;}
 .step-sub{font-size:12px;color:var(--muted);}
-
+ 
 /* BADGE GRID */
 .badge-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px;}
 .badge{text-align:center;padding:13px 6px 9px;border-radius:var(--r);
@@ -110,7 +110,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .trophy-badge{grid-column:span 2;padding:14px;}
 .trophy-badge .badge-ico{font-size:36px;}
 .trophy-badge .badge-name{font-size:12px;}
-
+ 
 /* TEST UI */
 .test-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:13px;}
 .test-tag{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;
@@ -137,7 +137,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
   cursor:pointer;transition:all 0.15s;color:var(--muted);}
 .tf-btn:hover{border-color:var(--p400);background:var(--p50);color:var(--p700);}
 .tf-btn.selected{border-color:var(--p500);background:var(--p100);color:var(--p800);}
-
+ 
 /* Q NAVIGATOR */
 .q-nav{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px;}
 .q-dot{width:29px;height:29px;border-radius:7px;border:1.5px solid var(--p200);
@@ -146,7 +146,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .q-dot:hover{border-color:var(--p400);color:var(--p600);}
 .q-dot.done{background:var(--p100);border-color:var(--p400);color:var(--p700);}
 .q-dot.active{background:linear-gradient(135deg,var(--p600),var(--p400));border-color:transparent;color:#fff;}
-
+ 
 /* SCORE */
 .score-wrap{text-align:center;padding:22px 0 14px;}
 .score-ring{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;
@@ -156,7 +156,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .score-den{font-size:11px;color:var(--muted);font-weight:600;}
 .level-badge{display:inline-block;padding:5px 16px;border-radius:20px;
   font-size:13px;font-weight:700;margin-bottom:5px;}
-
+ 
 /* MODULE ROWS */
 .mod-row{display:flex;align-items:flex-start;gap:11px;padding:13px 0;
   border-bottom:1.5px dashed var(--p100);}
@@ -177,7 +177,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
   padding:5px 12px;border-radius:20px;font-size:11px;font-weight:700;margin-top:7px;
   animation:popIn 0.4s cubic-bezier(.34,1.56,.64,1);}
 @keyframes popIn{from{opacity:0;transform:scale(0.6);}to{opacity:1;transform:scale(1);}}
-
+ 
 /* TRAINER */
 .trainer-hdr{background:linear-gradient(135deg,var(--g800),var(--g700));
   border-radius:var(--rlg);padding:18px;margin-bottom:12px;color:#fff;}
@@ -192,7 +192,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .pill-no{background:var(--p50);color:var(--muted);}
 .gain-pos{color:var(--mint);font-weight:700;}
 .gain-neg{color:var(--coral);font-weight:700;}
-
+ 
 /* TROPHY */
 .trophy-screen{background:linear-gradient(135deg,var(--p700) 0%,var(--p500) 50%,var(--sky) 100%);
   border-radius:var(--rxl);padding:30px 22px;text-align:center;margin-bottom:14px;overflow:hidden;}
@@ -201,7 +201,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 @keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
 .trophy-screen h2{font-size:20px;font-weight:800;color:#fff;margin-bottom:5px;}
 .trophy-screen p{font-size:13px;color:rgba(255,255,255,0.82);}
-
+ 
 /* NAV */
 .nav-bar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);
   width:100%;max-width:520px;z-index:100;
@@ -213,12 +213,12 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
   display:flex;flex-direction:column;align-items:center;gap:3px;transition:all 0.15s;}
 .nav-btn:hover,.nav-btn.active{color:var(--p700);background:var(--p50);}
 .nav-ico{font-size:17px;}
-
+ 
 /* ALERTS */
 .alert{border-radius:var(--rsm);padding:11px 13px;font-size:13px;margin-top:9px;}
 .alert-info{background:var(--p50);border:1.5px solid var(--p200);color:var(--p800);}
 .alert-success{background:rgba(0,212,161,0.09);border:1.5px solid rgba(0,212,161,0.28);color:#00604A;}
-
+ 
 /* GAIN BAR */
 .gain-bar-wrap{margin-top:12px;}
 .gain-row{display:flex;align-items:center;gap:9px;margin-bottom:7px;font-size:12px;}
@@ -228,7 +228,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;
 .gain-fill-pre{background:linear-gradient(90deg,var(--p400),var(--p300));}
 .gain-fill-post{background:linear-gradient(90deg,var(--mint),#009E75);}
 .gain-num{width:32px;font-weight:700;}
-
+ 
 /* ANIM */
 .fade-in{animation:fadeSlide 0.32s ease forwards;}
 @keyframes fadeSlide{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
@@ -279,14 +279,14 @@ const QS=[
   {no:24,s:"C",q:"HEP meminta laporan trend prestasi dari Tingkatan 1 (2022) hingga T5 (2026) dengan 19 helaian dan kod subjek berbeza. Apakah PENDEKATAN PALING SISTEMATIK?",t:"mc",o:["Bina carta garis berasingan untuk setiap helaian","Bina kamus kod > gabung data ke jadual master > Pivot Table > Pivot Chart garis","Guna VLOOKUP tarik data dari semua 19 helaian terus","Minta Gemini AI gabungkan semua 19 helaian serentak"],a:1},
   {no:25,s:"C",q:"Cikgu Zulaikha mahu kongsikan dashboard dengan ibu bapa melalui pautan tanpa mereka boleh edit. Apakah langkah PALING BETUL?",t:"mc",o:["E-mel fail Excel terus kepada setiap ibu bapa","Simpan dalam Google Drive > Share > 'Anyone with the link can view' (bukan edit)","Cetak dashboard dan hantar salinan bercetak","Beri kata laluan Excel workbook kepada semua ibu bapa"],a:1},
 ];
-
+ 
 let S={view:"register",p:null,preAns:{},postAns:{},preScore:null,postScore:null,
   testMode:null,qIdx:0,mods:{1:null,2:null,3:null,4:null,5:null,6:null,7:null},
   preDone:false,postDone:false};
 function sv(){try{localStorage.setItem('ws24s',JSON.stringify(S));}catch(e){}}
 function ld(){try{const r=localStorage.getItem('ws24s');if(r)Object.assign(S,JSON.parse(r));}catch(e){}}
 ld();
-
+ 
 const app=document.getElementById('app');
 function render(){
   app.className='fade-in';
@@ -296,7 +296,7 @@ function render(){
   else if(S.view==='trainer'){app.innerHTML=tTrainer();}
   else{app.innerHTML=(S.view==='home'?tHome():S.view==='modules'?tMods():tBadges())+tNav();}
 }
-
+ 
 // REGISTER
 function tReg(){return `
   <div class="hdr" style="margin-top:8px">
@@ -334,7 +334,7 @@ function bindReg(){
     S.view='home';saveAll();sv();render();
   };
 }
-
+ 
 // HOME
 function tHome(){
   const p=S.p,done=Object.values(S.mods).filter(v=>v).length;
@@ -405,7 +405,7 @@ function si(num,title,sub,done,type,extra,action){
       <div class="step-sub">${sub}${extra?' &middot; <span style="color:var(--mint);font-weight:700">'+extra+'</span>':''}</div>
     </div>${btn}</div>`;
 }
-
+ 
 // MODULES
 function tMods(){return `
   <div style="margin-bottom:13px">
@@ -438,7 +438,7 @@ function sbm(id){
   if(!v||!v.value.trim()){alert('Sila tampal pautan dahulu.');return;}
   S.mods[id]=v.value.trim();saveAll();sv();render();
 }
-
+ 
 // BADGES
 function tBadges(){
   const done=Object.values(S.mods).filter(v=>v).length;
@@ -470,7 +470,7 @@ function tBadges(){
       </div>
     </div>
   </div>`;}
-
+ 
 // NAV
 function tNav(){return `<div class="nav-bar">
   ${[['home','&#127968;','Utama'],['modules','&#128203;','Modul'],['badges','&#127885;','Lencana']].map(([id,ico,lbl])=>`
@@ -478,7 +478,7 @@ function tNav(){return `<div class="nav-bar">
     <span class="nav-ico">${ico}</span>${lbl}
   </button>`).join('')}
 </div>`;}
-
+ 
 // TEST
 function tTest(){
   const isP=S.testMode==='post';
@@ -531,7 +531,7 @@ function dsub(){
   if(isP){S.postScore=sc;S.postDone=true;}else{S.preScore=sc;S.preDone=true;}
   saveAll();sv();S.view='results';render();
 }
-
+ 
 // RESULTS
 function tResults(){
   const isP=S.testMode==='post';
@@ -571,7 +571,7 @@ function tResults(){
     }).join('')}
   </div>
   <button class="btn btn-primary btn-full" onclick="S.view='home';sv();render()">Kembali ke Utama &rarr;</button>`;}
-
+ 
 // TRAINER
 function tTrainer(){
   const all=gAll();
@@ -629,7 +629,7 @@ function tTrainer(){
       </tbody>
     </table>
   </div>`;}
-
+ 
 function gAll(){try{return JSON.parse(localStorage.getItem('ws24all')||'[]');}catch(e){return[];}}
 function saveAll(){
   if(!S.p)return;
@@ -667,7 +667,7 @@ function doExp(){
   a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
   a.download='MRSM_Workshop_Rekod.csv';a.click();
 }
-
+ 
 if(!S.p){S.view='register';}else if(S.view==='register'){S.view='home';}
 render();
 </script>
